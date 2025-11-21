@@ -310,7 +310,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## 👨‍💻 Desenvolvedor
 
-Desenvolvido por **Artix**
+Desenvolvido por **Faastyzin**
 
 ## 🙏 Agradecimentos
 
