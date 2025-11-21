@@ -1,0 +1,24 @@
+prefix: "&6[Horus] &r"
+
+notifications:
+  tag-obtained: "&aVocê obteve a tag: &f{tag}"
+  tag-expiring: "&eSua tag {tag} expira em {time}"
+  achievement-complete: "&6&lConquista desbloqueada: &f{achievement}"
+  new-tag-available: "&bNova tag disponível: &f{tag}"
+
+gui:
+  title: "&6Tags"
+  preview-title: "&6Preview: {tag}"
+
+errors:
+  no-permission: "&cVocê não tem permissão para fazer isso."
+  tag-not-found: "&cTag não encontrada."
+  player-not-found: "&cJogador não encontrado."
+  not-enough-money: "&cVocê não tem dinheiro suficiente."
+  tag-already-owned: "&cVocê já possui esta tag."
+  tag-limit-reached: "&cVocê atingiu o limite de tags."
+  conditions-not-met: "&cVocê não atende às condições necessárias para usar esta tag."
+  region-not-allowed: "&cVocê não está na região permitida para usar esta tag."
+  time-restriction: "&cEsta tag não pode ser usada no momento."
+  cooldown: "&cAguarde {time} segundos antes de trocar de tag novamente."
+

@@ -1,0 +1,66 @@
+name: Horus
+version: '${project.version}'
+main: dev.artix.horus.Horus
+api-version: 1.13
+author: Artix
+description: Sistema completo e profissional de tags para Minecraft
+
+permissions:
+  horus.*:
+    description: Todas as permissões do Horus
+    default: op
+    children:
+      horus.use: true
+      horus.admin: true
+      horus.tag.*: true
+  
+  horus.use:
+    description: Permissão para usar o sistema de tags
+    default: true
+  
+  horus.admin:
+    description: Permissões administrativas
+    default: op
+    children:
+      horus.tag.create: true
+      horus.tag.delete: true
+      horus.tag.give: true
+      horus.tag.reload: true
+  
+  horus.tag.*:
+    description: Todas as permissões de tags
+    default: false
+    children:
+      horus.tag.vip: false
+      horus.tag.premium: false
+      horus.tag.legendary: false
+  
+  horus.tag.vip:
+    description: Permissão para usar tag VIP
+    default: false
+  
+  horus.tag.premium:
+    description: Permissão para usar tag Premium
+    default: false
+  
+  horus.tag.legendary:
+    description: Permissão para usar tag Legendary
+    default: false
+  
+  horus.tag.create:
+    description: Criar tags
+    default: op
+  
+  horus.tag.delete:
+    description: Deletar tags
+    default: op
+  
+  horus.tag.give:
+    description: Dar tags para jogadores
+    default: op
+  
+  horus.tag.reload:
+    description: Recarregar o plugin
+    default: op
+
+softdepend: [Vault, LuckPerms, PlaceholderAPI]

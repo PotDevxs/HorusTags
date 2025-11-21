@@ -1,0 +1,141 @@
+tags:
+  rainbow-vip:
+    name: "Rainbow VIP"
+    display-name: "&c&lR&6&lA&e&lI&a&lN&b&lB&d&lO&c&lW"
+    prefix: "&c&l[&6&lR&e&lA&a&lI&b&lN&d&lB&c&lO&6&lW&c&l] &r"
+    category: "special"
+    rarity: "EPIC"
+    type: "SPECIAL"
+    price: 5000.0
+    permission: "horus.tag.rainbow-vip"
+    purchasable: true
+    tradeable: false
+    giftable: true
+    priority: 15
+    animated: true
+    animation-type: "rainbow"
+    animation-frames:
+      - "&c&lVIP"
+      - "&6&lVIP"
+      - "&e&lVIP"
+      - "&a&lVIP"
+      - "&b&lVIP"
+      - "&d&lVIP"
+    animation-speed: 300
+    title: "&c&lR&6&lA&e&lI&a&lN&b&lB&d&lO&c&lW"
+    subtitle: "&7Tag Especial Animada"
+    title-animated: true
+    title-animation-frames:
+      - "&c&lR&6&lA&e&lI&a&lN&b&lB&d&lO&c&lW"
+      - "&6&lR&e&lA&a&lI&b&lN&d&lB&c&lO&6&lW"
+      - "&e&lR&a&lA&b&lI&d&lN&c&lB&6&lO&e&lW"
+    title-animation-speed: 500
+    subtitle-animated: false
+    subtitle-animation-frames: []
+    subtitle-animation-speed: 2000
+    glow: true
+    particle-effect: "HEART"
+  
+  wave-mvp:
+    name: "Wave MVP"
+    display-name: "&6&lMVP"
+    prefix: "&6&l[MVP] &r"
+    category: "ranks"
+    rarity: "RARE"
+    type: "RANK"
+    price: 3000.0
+    permission: "horus.tag.wave-mvp"
+    purchasable: true
+    tradeable: true
+    giftable: true
+    priority: 12
+    animated: true
+    animation-type: "wave"
+    animation-frames:
+      - "&6&lMVP"
+    animation-speed: 400
+    title: "&6&lMVP"
+    subtitle: "&7Membro VIP Premium"
+    title-animated: true
+    title-animation-frames:
+      - "&6&lMVP"
+      - "&e&lMVP"
+      - "&6&lMVP"
+    title-animation-speed: 800
+    subtitle-animated: false
+    subtitle-animation-frames: []
+    subtitle-animation-speed: 2000
+  
+  fade-legendary:
+    name: "Fade Legendary"
+    display-name: "&5&lLEGENDARY"
+    prefix: "&5&l[LEGENDARY] &r"
+    category: "special"
+    rarity: "LEGENDARY"
+    type: "SPECIAL"
+    price: 10000.0
+    permission: "horus.tag.fade-legendary"
+    purchasable: true
+    tradeable: false
+    giftable: false
+    priority: 20
+    animated: true
+    animation-type: "fade"
+    animation-frames:
+      - "&5&lLEGENDARY"
+    animation-speed: 1000
+    title: "&5&lLEGENDARY"
+    subtitle: "&7Tag Lendária com Efeito Fade"
+    title-animated: true
+    title-animation-frames:
+      - "&5&lLEGENDARY"
+      - "&d&lLEGENDARY"
+      - "&5&lLEGENDARY"
+    title-animation-speed: 1500
+    subtitle-animated: false
+    subtitle-animation-frames: []
+    subtitle-animation-speed: 2000
+    glow: true
+    particle-effect: "ENCHANTMENT_TABLE"
+  
+  gradient-premium:
+    name: "Gradient Premium"
+    display-name: "&c&lPREMIUM"
+    prefix: "&c&l[PREMIUM] &r"
+    category: "special"
+    rarity: "EPIC"
+    type: "SPECIAL"
+    price: 7500.0
+    permission: "horus.tag.gradient-premium"
+    purchasable: true
+    tradeable: true
+    giftable: true
+    priority: 18
+    animated: true
+    animation-type: "gradient"
+    animation-frames:
+      - "&c&lPREMIUM"
+      - "&6&lPREMIUM"
+      - "&e&lPREMIUM"
+      - "&a&lPREMIUM"
+      - "&b&lPREMIUM"
+      - "&d&lPREMIUM"
+      - "&5&lPREMIUM"
+    animation-speed: 200
+    title: "&c&lPREMIUM"
+    subtitle: "&7Tag Premium com Gradiente"
+    title-animated: true
+    title-animation-frames:
+      - "&c&lPREMIUM"
+      - "&6&lPREMIUM"
+      - "&e&lPREMIUM"
+      - "&a&lPREMIUM"
+      - "&b&lPREMIUM"
+      - "&d&lPREMIUM"
+    title-animation-speed: 400
+    subtitle-animated: false
+    subtitle-animation-frames: []
+    subtitle-animation-speed: 2000
+    glow: true
+    particle-effect: "VILLAGER_HAPPY"
+

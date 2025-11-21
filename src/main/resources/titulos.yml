@@ -1,0 +1,81 @@
+titles:
+  rainbow-vip:
+    title: "&c&lR&6&lA&e&lI&a&lN&b&lB&d&lO&c&lW"
+    subtitle: "&7Tag Especial Animada"
+    title-animated: true
+    title-animation-frames:
+      - "&c&lR&6&lA&e&lI&a&lN&b&lB&d&lO&c&lW"
+      - "&6&lR&e&lA&a&lI&b&lN&d&lB&c&lO&6&lW"
+      - "&e&lR&a&lA&b&lI&d&lN&c&lB&6&lO&e&lW"
+    title-animation-speed: 500
+    subtitle-animated: false
+    subtitle-animation-frames: []
+    subtitle-animation-speed: 2000
+    fade-in: 10
+    stay: 40
+    fade-out: 10
+  
+  wave-mvp:
+    title: "&6&lMVP"
+    subtitle: "&7Membro VIP Premium"
+    title-animated: true
+    title-animation-frames:
+      - "&6&lMVP"
+      - "&e&lMVP"
+      - "&6&lMVP"
+    title-animation-speed: 800
+    subtitle-animated: false
+    subtitle-animation-frames: []
+    subtitle-animation-speed: 2000
+    fade-in: 10
+    stay: 40
+    fade-out: 10
+  
+  fade-legendary:
+    title: "&5&lLEGENDARY"
+    subtitle: "&7Tag Lendária com Efeito Fade"
+    title-animated: true
+    title-animation-frames:
+      - "&5&lLEGENDARY"
+      - "&d&lLEGENDARY"
+      - "&5&lLEGENDARY"
+    title-animation-speed: 1500
+    subtitle-animated: false
+    subtitle-animation-frames: []
+    subtitle-animation-speed: 2000
+    fade-in: 10
+    stay: 40
+    fade-out: 10
+  
+  gradient-premium:
+    title: "&c&lPREMIUM"
+    subtitle: "&7Tag Premium com Gradiente"
+    title-animated: true
+    title-animation-frames:
+      - "&c&lPREMIUM"
+      - "&6&lPREMIUM"
+      - "&e&lPREMIUM"
+      - "&a&lPREMIUM"
+      - "&b&lPREMIUM"
+      - "&d&lPREMIUM"
+    title-animation-speed: 400
+    subtitle-animated: false
+    subtitle-animation-frames: []
+    subtitle-animation-speed: 2000
+    fade-in: 10
+    stay: 40
+    fade-out: 10
+  
+  dono:
+    title: "&4&lDONO"
+    subtitle: "&7Administrador do Servidor"
+    title-animated: false
+    title-animation-frames: []
+    title-animation-speed: 2000
+    subtitle-animated: false
+    subtitle-animation-frames: []
+    subtitle-animation-speed: 2000
+    fade-in: 10
+    stay: 40
+    fade-out: 10
+

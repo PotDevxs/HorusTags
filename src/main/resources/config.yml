@@ -1,0 +1,324 @@
+debug: false
+load-from-database: true
+
+# Modo de seleção de tags: "menu" (interface gráfica) ou "chat" (seleção por chat)
+# menu = Abre uma interface gráfica (GUI) para selecionar tags
+# chat = Mostra as tags no chat e permite selecionar digitando o número
+tag-selection-mode: "chat"
+tag-change-cooldown: 5000
+tag-limit: -1
+
+cache:
+  expiry: 300000
+
+economy:
+  discounts:
+    enabled: true
+    seasonal: true
+    seasonal-amount: 0.1
+  refunds:
+    enabled: true
+    window: 86400000
+
+logging:
+  enabled: true
+
+daily-tags:
+  notify: true
+  categories:
+    default:
+      - "vip"
+      - "vip+"
+      - "vip++"
+      - "mvp"
+      - "mvp+"
+      - "mvp++"
+
+tags:
+  dono:
+    name: "Dono"
+    display-name: "&4&lDONO"
+    prefix: "&4&l[DONO] &r"
+    category: "staff"
+    rarity: "LEGENDARY"
+    type: "STAFF"
+    price: 0.0
+    permission: "horus.tag.dono"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 100
+  diretor:
+    name: "Diretor"
+    display-name: "&c&lDIRETOR"
+    prefix: "&c&l[DIRETOR] &r"
+    category: "staff"
+    rarity: "LEGENDARY"
+    type: "STAFF"
+    price: 0.0
+    permission: "horus.tag.diretor"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 90
+  admin:
+    name: "Admin"
+    display-name: "&c&lADMIN"
+    prefix: "&c&l[ADMIN] &r"
+    category: "staff"
+    rarity: "LEGENDARY"
+    type: "STAFF"
+    price: 0.0
+    permission: "horus.tag.admin"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 80
+  gerente:
+    name: "Gerente"
+    display-name: "&5&lGERENTE"
+    prefix: "&5&l[GERENTE] &r"
+    category: "staff"
+    rarity: "EPIC"
+    type: "STAFF"
+    price: 0.0
+    permission: "horus.tag.gerente"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 70
+  mod+:
+    name: "Mod+"
+    display-name: "&5&lMOD+"
+    prefix: "&5&l[MOD+] &r"
+    category: "staff"
+    rarity: "EPIC"
+    type: "STAFF"
+    price: 0.0
+    permission: "horus.tag.modplus"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 60
+  mod:
+    name: "Mod"
+    display-name: "&5&lMOD"
+    prefix: "&5&l[MOD] &r"
+    category: "staff"
+    rarity: "RARE"
+    type: "STAFF"
+    price: 0.0
+    permission: "horus.tag.mod"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 50
+  trial:
+    name: "Trial"
+    display-name: "&d&lTRIAL"
+    prefix: "&d&l[TRIAL] &r"
+    category: "staff"
+    rarity: "RARE"
+    type: "STAFF"
+    price: 0.0
+    permission: "horus.tag.trial"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 45
+  ajudante:
+    name: "Ajudante"
+    display-name: "&d&lAJUDANTE"
+    prefix: "&d&l[AJUDANTE] &r"
+    category: "staff"
+    rarity: "RARE"
+    type: "STAFF"
+    price: 0.0
+    permission: "horus.tag.ajudante"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 40
+  builder:
+    name: "Builder"
+    display-name: "&2&lBUILDER"
+    prefix: "&2&l[BUILDER] &r"
+    category: "staff"
+    rarity: "RARE"
+    type: "STAFF"
+    price: 0.0
+    permission: "horus.tag.builder"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 35
+  creator+:
+    name: "Creator+"
+    display-name: "&b&lCREATOR+"
+    prefix: "&b&l[CREATOR+] &r"
+    category: "creator"
+    rarity: "EPIC"
+    type: "CREATOR"
+    price: 0.0
+    permission: "horus.tag.creator+"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 30
+  creator:
+    name: "Creator"
+    display-name: "&b&lCREATOR"
+    prefix: "&b&l[CREATOR] &r"
+    category: "creator"
+    rarity: "RARE"
+    type: "CREATOR"
+    price: 0.0
+    permission: "horus.tag.creator"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 25
+  streamer:
+    name: "Streamer"
+    display-name: "&5&lSTREAMER"
+    prefix: "&5&l[STREAMER] &r"
+    category: "midia"
+    rarity: "RARE"
+    type: "MEDIA"
+    price: 0.0
+    permission: "horus.tag.streamer"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 24
+  tiktok:
+    name: "Tiktok"
+    display-name: "&5&lTIKTOK"
+    prefix: "&5&l[TIKTOK] &r"
+    category: "midia"
+    rarity: "RARE"
+    type: "MEDIA"
+    price: 0.0
+    permission: "horus.tag.tiktok"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 23
+  midia:
+    name: "Midia"
+    display-name: "&5&lMIDIA"
+    prefix: "&5&l[MIDIA] &r"
+    category: "midia"
+    rarity: "RARE"
+    type: "MEDIA"
+    price: 0.0
+    permission: "horus.tag.midia"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 22
+  mvp++:
+    name: "MVP++"
+    display-name: "&6&lMVP++"
+    prefix: "&6&l[MVP++] &r"
+    category: "ranks"
+    rarity: "EPIC"
+    type: "RANK"
+    price: 10000.0
+    permission: "horus.tag.mvp++"
+    purchasable: true
+    tradeable: true
+    giftable: true
+    priority: 20
+  mvp+:
+    name: "MVP+"
+    display-name: "&6&lMVP+"
+    prefix: "&6&l[MVP+] &r"
+    category: "ranks"
+    rarity: "RARE"
+    type: "RANK"
+    price: 5000.0
+    permission: "horus.tag.mvp+"
+    purchasable: true
+    tradeable: true
+    giftable: true
+    priority: 15
+  mvp:
+    name: "MVP"
+    display-name: "&6&lMVP"
+    prefix: "&6&l[MVP] &r"
+    category: "ranks"
+    rarity: "UNCOMMON"
+    type: "RANK"
+    price: 2500.0
+    permission: "horus.tag.mvp"
+    purchasable: true
+    tradeable: true
+    giftable: true
+    priority: 12
+  vip++:
+    name: "VIP++"
+    display-name: "&a&lVIP++ "
+    prefix: "&a&l[VIP++] &r"
+    category: "ranks"
+    rarity: "EPIC"
+    type: "RANK"
+    price: 5000.0
+    permission: "horus.tag.vip++"
+    purchasable: true
+    tradeable: true
+    giftable: true
+    priority: 10
+  vip+:
+    name: "VIP+"
+    display-name: "&a&lVIP+"
+    prefix: "&a&l[VIP+] &r"
+    category: "ranks"
+    rarity: "RARE"
+    type: "RANK"
+    price: 2000.0
+    permission: "horus.tag.vip+"
+    purchasable: true
+    tradeable: true
+    giftable: true
+    priority: 8
+  vip:
+    name: "VIP"
+    display-name: "&a&lVIP"
+    prefix: "&a&l[VIP] &r"
+    category: "ranks"
+    rarity: "UNCOMMON"
+    type: "RANK"
+    price: 1000.0
+    permission: "horus.tag.vip"
+    purchasable: true
+    tradeable: true
+    giftable: true
+    priority: 6
+  booster:
+    name: "Booster"
+    display-name: "&d&lBOOSTER"
+    prefix: "&d&l[BOOSTER] &r"
+    category: "special"
+    rarity: "RARE"
+    type: "SPECIAL"
+    price: 0.0
+    permission: "horus.tag.booster"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 4
+  membro:
+    name: "Membro"
+    display-name: "&7Membro"
+    prefix: "&7[Membro] &r"
+    category: "ranks"
+    rarity: "COMMON"
+    type: "RANK"
+    price: 0.0
+    permission: "horus.tag.membro"
+    purchasable: false
+    tradeable: false
+    giftable: false
+    priority: 1
+
